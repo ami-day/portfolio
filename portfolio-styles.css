@@ -1,0 +1,95 @@
+:root {
+  --color-nav: white;
+  --color-primary: rgb(78, 78, 248);
+  --color-primary-darker: rgb(78, 78, 248);
+  --color-primary-opacity: rgba(78, 78, 248, 0.552);
+  --gradient-primary: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-primary-darker)
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /*font-weight: 300;*/
+  color: black;
+  /*line-height: 1.9;*/
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: var(--color-nav);
+  width: 100%;
+  height: 4rem;
+}
+
+#nav-title {
+  margin-left: 2rem;
+}
+
+.nav-links {
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.nav-link {
+  display: inline;
+  padding: 0.25rem;
+  text-decoration: none;
+  color: var(--color-nav);
+}
+
+.nav-anchor {
+  color: var(--color-nav);
+  text-decoration: none;
+}
+
+.nav-anchor:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#pretty-font {
+  font-family: "Dancing Script", sans-serif !important;
+  color: var(--color-primary) !important;
+  font-size: 120%;
+}
+
+#intro {
+  font-size: 2.5rem;
+  width: 75%;
+  padding: none;
+  margin-left: 3.5rem;
+  margin-right: 3rem;
+  margin-top: 8rem;
+  margin-bottom: auto;
+}
+
+.first-section {
+  /*border: 1px solid black;*/
+  margin-right: 50%;
+}
+
+#intro,
+#main-para {
+  width: 75%;
+  /*border: 1px solid gray;*/
+  margin-left: 3.5rem;
+  margin-right: 3rem;
+}
