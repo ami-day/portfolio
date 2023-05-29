@@ -44,43 +44,48 @@
 
   <body>
     <header class="header">
-      <nav class="nav">
-        <p id="nav-title">My Portfolio</p>
-        <ul class="nav-links">
-          <li class="nav-link">
-            <a class="nav-anchor" href="#project1">Project 1</a>
-          </li>
-          <li class="nav-link">
-            <a class="nav-anchor" href="#project2">Project 2</a>
-          </li>
-          <li class="nav-link">
-            <a class="nav-anchor" href="#project3">Project 3</a>
-          </li>
-        </ul>
-      </nav>
+      <div id = "main-page">
+        <nav class="nav">
+          <p id="nav-title">My Portfolio</p>
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a class="nav-anchor" href="#project1">Project 1</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-anchor" href="#project2">Project 2</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-anchor" href="#project3">Project 3</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-page-intro">
+          <div class="intro">
+            <p id="main-page-intro-text">
+              Hello, I'm <span id="pretty-font"> Ami,</span> a Software Engineering
+              Student based in the UK.
+            </p>
+            <p id="main-page-para">
+                I am a software engineering student. I have worked on multiple
+                portfolio projects
+            </p>
+            <button class="btn" id="contact-btn">GET IN TOUCH</button>
+            <button action="#project1" class="btn" id="github-btn1">
+            VIEW ALL WORKS
+            </button>
+          </div>
+          <div class="main-page-img">
+            <img id="header-img" src="https://avatars.githubusercontent.com/u/25744951?v=4" />
+          </div>
+        </div>
+      </div>
     </header>
-    <section class="first-section">
-      <section id="main-section">
-        <p class="main-page" id="intro">
-          Hello, I'm <span id="pretty-font"> Ami,</span> a Software Engineering
-          Student based in the UK.
-        </p>
-        <p id="main-para">
-          I am a software engineering student. I
-          have worked on multiple portfolio projects
-        </p>
-        <button class="btn" id="contact-btn">GET IN TOUCH</button>
-        <button action="#project1" class="btn" id="github-btn1">
-          VIEW ALL WORKS
-        </button>
-      </section>
-    </section>
-    <section>
+    <section id="section1">
       <p id="project1">Project 1</p>
     </section>
-    <section>
+    <section id="section2">
       <p id="project2">Project 2</p>
-    </section>
+    </section id="section3">
     <section>
       <p id="project3">Project 3</p>
     </section>
